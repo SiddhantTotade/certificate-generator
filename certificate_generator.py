@@ -12,10 +12,6 @@ def cleanup_data():
         print(f)
         os.remove(f)
 
-    # with open("name-list-data") as file:
-    #     for line in file:
-    #         list_of_names.append(line.strip())
-
 
 def generate_certificates():
     df = pd.read_excel('Contact Information.xlsx', index_col=None)
