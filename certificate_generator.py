@@ -24,7 +24,7 @@ def generate_certificates():
         template = cv2.imread("certificate-generator/certificate-template.jpg")
         signature = cv2.imread("certificate-generator/Galvin Belson.png", -1)
 
-        x_offset = y_offset = 50
+        x_offset = y_offset = 500
 
         y1, y2 = y_offset, y_offset + signature.shape[0]
         x1, x2 = x_offset, x_offset + signature.shape[1]
