@@ -31,4 +31,4 @@ def generate_certificate():
 
 if __name__ == '__main__':
     clean_up()
-    # generate_certificate()
+    generate_certificate()
